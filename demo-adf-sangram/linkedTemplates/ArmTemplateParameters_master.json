@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demo-adf-sangram"
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://pupundatabeliadls.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "demo-databeli-sangram.database.windows.net"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "demo_sql_db"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "databeli"
+		},
+		"TGR_EVENT_SIMPLE_properties_typeProperties_scope": {
+			"value": "/subscriptions/468a24ca-0c63-449d-a3fb-c178b213642c/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/pupundatabeliadls"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
