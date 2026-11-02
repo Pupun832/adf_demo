@@ -1,0 +1,21 @@
+{
+	"name": "demo-adf-sangram",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "sangramsahoo985@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "259a3e08-8b2e-46ec-a7ce-2e5d05aa1e5d",
+		"tenantId": "7527af0d-67e6-4f0b-9ad6-8fc8cf286bee"
+	}
+}
